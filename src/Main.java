@@ -31,7 +31,7 @@ public class Main {
                 if (coordinates.length == 2)
                     points.add(new Point(Integer.parseInt(coordinates[0]), Integer.parseInt(coordinates[1])));
                 else
-                    System.out.println("Слишком много данных для точки в пространстве. Попробуйте ещё раз...");
+                    System.out.println("Слишком много (или мало) данных для точки в пространстве. Попробуйте ещё раз...");
             }
             catch (Exception ex) {
                 System.out.println("Кажется, в ввод попали буквы. Попробуйте ещё раз...");
